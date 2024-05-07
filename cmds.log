@@ -1,0 +1,802 @@
+    1  pwd
+    2  mkdir test
+    3  ls
+    4  rmdir test
+    5  ls
+    6  passwd
+    7  mkdir sampleProject
+    8  ls -ltr
+    9  cd sampleProject/
+   10  touch sampleFile.txt
+   11  git init
+   12  git add .
+   13  git status
+   14  git config --global breannakchi
+   15  git config --global user.name "breannakchi"
+   16  git config --global user.email breannakchi@gmail.com
+   17  cd ~/.ssh && ssh-keygen
+   18  mkdir ~/.ssh
+   19  cd ~/.ssh && ssh-keygen
+   20  cat id_rsa.pub
+   21  git remote add origin git@github.com:<breannakchi>/<sampleProject>.git
+   22  git remote add origin https://github.com/breannakchi/sampleProject.git
+   23  git commit -m "hello world"
+   24  git remote add origin https://github.com/breannakchi/sampleProject.git
+   25  git init
+   26  git remote add origin https://github.com/breannakchi/sampleProject.git
+   27  git commit -m "hello world"
+   28  git push --set-upstream origin master
+   29  git add .
+   30  git push --set-upstream origin master
+   31  git add .
+   32  git commit -m "hello world"
+   33  git push --set-upstream origin master
+   34  git remote add origin git@github.com:breannakchi/sampleProject.git
+   35  git remote -v
+   36  git remote set-url origin git@github.com:breannakchi/sampleProject.git
+   37  git remove -v
+   38  git remote -v
+   39  git add .
+   40  git commit -m "hello world"
+   41  git push --set-upstream origin master
+   42  wget www.github.com
+   43  pwd
+   44  mkdir myproject
+   45  cd myproject/
+   46  git init
+   47  touch newfile.txt
+   48  ls
+   49  git status
+   50  git add newfile.txt
+   51  git status
+   52  git commit -m "this is my first commit!"
+   53  git status
+   54  git branch
+   55  git checkout -b my-new-branch
+   56  git branch
+   57  git remote add origin git@github.com:breannakchi/newrepo.git
+   58  git push -u origin main
+   59  git config --global user.email "breannakchi@gmail.com"
+   60  git config --global user.name
+   61  git remote add origin git@github.com:breannakchi/newrepo.git
+   62  git push -u origin main
+   63  git status
+   64  git add .
+   65  git status
+   66  git remote add origin git@github.com:breannakchi/newrepo.git
+   67  git commit -m "this is my first commit"
+   68  git push -u origin master
+   69  git push origin my-new-branch
+   70  git pull
+   71  git pull origin master
+   72  git log
+   73  git checkout master
+   74  git log
+   75  pwd
+   76  cd..
+   77  cd.
+   78  cd ..
+   79  pwd
+   80  mkdir cs131
+   81  ls
+   82  cd cs131
+   83  git init
+   84  git remote add origin git@github.com:breannakchi/cs131.git
+   85  git branch
+   86  git status
+   87  git branch -b worksheet1
+   88  git checkout -b worksheet1
+   89  git branch
+   90  git staus
+   91  git status
+   92  git add .
+   93  history > cmds.log
+   94  touch cmds.log
+   95  ls
+   96  git status
+   97  git add
+   98  git add .
+   99  git commit -m "My history of commands"
+  100  git branch
+  101  git remote add origin git@github.com:breannakchi/cs131.git
+  102  git status
+  103  git init
+  104  git add.
+  105  git add .
+  106  git status
+  107  touch cmds.log 
+  108  ls
+  109  git status
+  110  git add cmds.log 
+  111  git commit
+  112  git commit -m "My history of my commands"
+  113  git branch
+  114  git remote add origin git@github.com:breannakchi/cs131.git
+  115  git push -u origin main
+  116  git push origin worksheet1
+  117  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  118  grep "United States" "Global YouTube Statistics.csv"
+  119  grep ",Music," "Global YouTube Statistics.csv"
+  120  grep ",Music," "Global YouTube Statistics.csv" | wc
+  121  grep ",Music," "Global YouTube Statistics.csv" | wc -l > counts.txt
+  122  grep ",Music," "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  123  vi counts.txt
+  124  history > cmds.log
+  125  pwd
+  126  mkdir Worksheet2
+  127  ls -ltr
+  128  cd worksheet2
+  129  cd Worksheet2
+  130  touch counts.txt
+  131  git init
+  132  git add .
+  133  git status
+  134  touch cmds.log
+  135  git init
+  136  git add .
+  137  git status
+  138  git config --global user.email breannakchi@gmail.com
+  139  git config --global user.name breannakchi
+  140  git init
+  141  git commit -m "adding the counts.txt file and cmds.log for history file"
+  142  git brnach -m main
+  143  git branch -m main
+  144  git remote add origin git@github.com:breannakchi/Worksheet2.git
+  145  git push -u origin main
+  146  touch counts.txt
+  147  cd
+  148  ls
+  149  cd worksheet2
+  150  ls
+  151  cd counts.txt
+  152  open cmds.log
+  153  open counts.txt
+  154  cd Worksheet2
+  155  ls
+  156  open -a cmds.log
+  157  cat cmds.log
+  158  cd .
+  159  cd ..
+  160  cat cmds.log
+  161  cat counts.txt
+  162  cd
+  163  ls
+  164  cd Worksheet2
+  165  pwd
+  166  mv cmds.log /mnt/scratch/SP24_CS131_Jyotika/breannasp24/Worksheet2
+  167  cd Worksheet2
+  168  cd ..
+  169  mv cmds.log /mnt/scratch/SP24_CS131_Jyotika/breannasp24/Worksheet2
+  170  ls
+  171  cd Worksheet2
+  172  ls
+  173  cat cmds.log
+  174  cd ..
+  175  mv counts.txt /mnt/scratch/SP24_CS131_Jyotika/breannasp24/Worksheet2
+  176  cd
+  177  ls
+  178  cd Worksheet2
+  179  ls
+  180  cat counts.txt
+  181  git init
+  182  git add .
+  183  git status
+  184  git commit -m "New push because the first push was blank files"
+  185  git remote add origin git@github.com:breannakchi/Worksheet2.git
+  186  git push --set-upstream origin master
+  187  git push origin main
+  188  pwd
+  189  ls
+  190  pwd
+  191  mkdir Assignment1
+  192  ls
+  193  cd Assignment1
+  194  echo $SHELL
+  195  echo $HOME
+  196  id -u
+  197  groups
+  198  groups username
+  199  groups
+  200  mkdir "Assignment1/myDir"
+  201  cd ..
+  202  mkdir "Assignment1/myDir"
+  203  ls
+  204  cd Assignment1
+  205  ls
+  206  chmod u-w Assignment1/myDir
+  207  cd myDir
+  208  chmod u-w
+  209  chmod u-w myDir
+  210  cd ..
+  211  chmod u-w Assignment1/myDir
+  212  chmod u-w myDir
+  213  cd myDir
+  214  ls
+  215  ls -l
+  216  cd ..
+  217  mkdir myDir2
+  218  cd ..
+  219  ls
+  220  cd Assignment1/
+  221  mkdir myDir3
+  222  ls
+  223  cd myDir2
+  224  touch myFile.txt
+  225  mv myFile.txt myDir3
+  226  ls
+  227  cd ..
+  228  ls Assignment1/
+  229  cd myDir3
+  230  cd myDir2
+  231  ls Assignment1/
+  232  cd myDir
+  233  ls Assignment1
+  234  cd myDir
+  235  cd Assignment1
+  236  ls
+  237  cd myDir
+  238  ls
+  239  cd ..
+  240  cd myDir2
+  241  ls
+  242  cd ..
+  243  cd myDir3
+  244  ls
+  245  cd ..
+  246  ls
+  247  cd myDir2
+  248  ls
+  249  cd myDir3
+  250  rm myDir3
+  251  rm myFile.txt
+  252  touch myFile.txt
+  253  ls
+  254  mv myFile.txt myDir3/
+  255  mv myDir2/myFile.txt myDir3/
+  256  cd ..
+  257  mv myDir2/myFile.txt myDir3/
+  258  cd
+  259  ls
+  260  cd Assignment1/
+  261  ls
+  262  cd myDir3
+  263  ls
+  264  free -m
+  265  man free
+  266  cat /etc/os-release
+  267  cd ..
+  268  ls -l /etc/os-release
+  269  pwd
+  270  ls
+  271  cd Assignment1
+  272  ls
+  273  touch Assignment1.txt
+  274  ls
+  275  nano Assignment1.txt
+  276  ls
+  277  history > cmds.log
+  278  ls
+  279  nano cmds.log
+  280  ls
+  281  cd
+  282  Assignment1
+  283  cd Assignment1
+  284  ls
+  285  git init
+  286  git add .
+  287  git status
+  288  git config --global user.email breannakchi@gmail.com
+  289  git config --global user.name breannakchi
+  290  git remote add origin git@github.com:breannakchi/Assignment1.git
+  291  git commit -m "these are the directories and files for assignment1"
+  292  git push -u origin main
+  293  git remote add origin git@github.com:breannakchi/Assignment1.git
+  294  git push -u origin main
+  295  git init
+  296  git add .
+  297  git remote add origin git@github.com:breannakchi/Assignment1.git
+  298  git push -u origin main
+  299  git push --set-upstream origin main
+  300  git push -u origin main
+  301  git init
+  302  git add .
+  303  git commit -m "necessary directories and files needed for assignment1"
+  304  git remote add origin git@github.com:breannakchi/Assignment1.git
+  305  git push -u origin main
+  306  git branch
+  307  git push --set-upstream origin master
+  308  mkdir Assignment2
+  309  find /etc -type f > one.txt 2> two.txt
+  310  cat one.txt
+  311  cat two.txt
+  312  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  313  Obl0ngG0rg3R@chttps://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csvm
+  314  cut -d',' -f3,4 "Global YouTube Statistics.csv"
+  315  sort -t',' -k2,2 -k1,1n
+  316  cd
+  317  ls
+  318  cd assignment2
+  319  cut -d',' -f1,3,4 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  320  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) if($i=="created year" || $i=="created month") print i}'
+  321  cat "Global YouTube Statistics.csv"
+  322  cat "Global YouTube Statistics.csv" | head -n 1
+  323  Find the top 3 Month and Year combinations [Month, Year] which had the most YouTube channels created [ Use the created year and created month columns ] 
+  324  awk -F ',' 'NR > 1 {count[$21","$22]++} END {for (date in count) print count[date], date}' "Global YouTube Statistics.csv" | sort -rn | head -n 3
+  325  awk -F ',' 'NR > 1 {count[$21","$22]++} END {max_count = 0; max_date = ""; for (date in count) {if (count[date] > max_count) {max_count = count[date]; max_date = date}} print max_date}' "Global YouTube Statistics.csv"
+  326  awk -F ',' 'NR > 1 {count[$21","$22]++} END {for (date in count) print count[date], date}' "Global YouTube Statistics.csv" | sort -rn | head -n 3
+  327  awk -F ',' 'NR > 1 {count[$21","($22 < 50 ? "20" : "19")$22]++} END {for (date in count) print count[date], date}' "Global YouTube Statistics.csv" | sort -rn | head -n 3
+  328  awk -F ',' 'NR > 1 {count[$21","($22 < 50 ? "20" : "19")$22]++} END {for (date in count) print count[date], date}' "Global YouTube Statistics.csv" | sort -rn | awk 'BEGIN{OFS=","; rank=1} {print rank".", $2, "with", $1, "channels"; rank++}' | head -n 3
+  329  vi file.txt
+  330  ps -u breannasp24
+  331  pidof systemd
+  332  cat one.txt
+  333  cat two.txt
+  334  find /etc -type f > one.txt 2> two.txt
+  335  cat one.txt
+  336  cat two.txt
+  337  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  338  cut -d ',' -f 21,22 "Global YouTube Statistics.csv.2" | sort | uniq -c | sort -nr | head -n 3
+  339  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  340  cut -d ',' -f 20,21 "Global YouTube Statistics.csv"
+  341  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | awk -F ',' '{count[$1","$2]++} END {for (date in count) print date" with "count[date]" channels"}'
+  342  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | awk -F ',' '{count[$1","$2]++} \
+  343  END {for (date in count) print date" with "count[date]" channels"}' | sort -r -t',' -k4,4 | head -n 3
+  344  cut -d ',' -f 20,21 "Global YouTube Statistics.csv
+  345  cut -d ',' -f 20,21 "Global YouTube Statistics.csv"
+  346  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  347  cut -d ',' -f 20,21 "Global YouTube Statistics.csv"
+  348  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | awk -F ',' '{count[$1","$2]++} END {for (date in count) print date" with "count[date]" channels"}'
+  349  sort
+  350  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 1 | awk '{print $2, $3}'
+  351  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | awk -F ',' '{count[$1","$2]++} END {for (date in count) print date" with "count[date]" channels"}'
+  352  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | awk -F ',' '{count[$1","$2]++} END {for (date in count) print date" with "count[date]" channels"}' | sort -nrk3
+  353  head -n 3
+  354  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | awk -F ',' '{count[$1","$2]++} END {for (date in count) print date" with "count[date]" channels"}' | sort -nrk3 | head -n 3
+  355  ps -u$(whoami)
+  356  ps -u breannasp24
+  357  vi file.txt
+  358  ls
+  359  cd Assignment2
+  360  nano Assignment2.txt
+  361  cd
+  362  ls
+  363  cd Assignment2
+  364  ls
+  365  nano Assignment2.txt
+  366  cmds.log
+  367  history > cmds.log
+  368  git init
+  369  git add .
+  370  git status
+  371  git config --global user.email breannakchi@gmail.com
+  372  git condif --global user.name breannakchi
+  373  git config --global user.name breannakchi
+  374  git remote add origin git@github.com:breannakchi/Assignment2.git
+  375  git commit -m "pushing the assignment2 to my github with the log and txt file"
+  376  git push -u origin main
+  377  git branch -m main
+  378  git push -u origin main
+  379  ls
+  380  mkdir Worksheet3
+  381  cd
+  382  ls
+  383  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  384  grep -E "United States|United Kingdom|India" youtube_data.csv | grep -v ",NA$" sort -t ',' -k$16,$16nr
+  385  grep -E "United States|United Kingdom|India" youtube_data.csv | grep -v ",NA$" sort -t ',' -k$16,$16nr head -n 3 cut -d ',' -f8,1
+  386  grep -E "United States|United Kingdom|India" Global YouTube Statistics.csv | grep -v ",NA$" sort -t ',' -k$16,$16nr head -n 3 cut -d ',' -f8,1
+  387  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  388  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" | grep -v ",NA$" sort -t ',' -k$16,$16nr head -n 3 cut -d ',' -f8,1
+  389  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" 
+  390  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv"     | grep -v ",NA$" | sort -t ',' -k16,16nr | head -n 3 | cut -d ',' -f8,1
+  391  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv"
+  392  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" grep - v ",NA$"
+  393  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" grep - v ",NA$" grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv"
+  394  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" grep - v ",NA$" grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" | grep -v ",NA$" | sort -t ',' -k16,16nr | head -n 3 | grep -E "United States|United Kingdom|India" |cut -d ',' -f8,1
+  395  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" grep - v ",NA$" grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" | grep -v ",NA$" | sort -t ',' -k16,16nr | head -n 3 | grep -E "United States|United Kingdom|India" | cut -d ',' -f8,1
+  396  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv"     | grep -v ",NA$"     | sort -t ',' -k16,16nr     | head -n 3     | grep -E "United States|United Kingdom|India"     | cut -d ',' -f8,1
+  397  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv"     | grep -v ",NA$"     | sort -t ',' -k16,16nr       | grep -E "United States|United Kingdom|India"     | cut -d ',' -f8,1
+  398  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  399  awk -F ',' 'NR > 1 && $16 == "highest_monthly_earnings" {print $2, $8}' "Global YouTube Statistics.csv"
+  400  awk -F ',' 'NR > 1 && $16 == "highest_monthly_earnings" {print $6, $8}' "Global YouTube Statistics.csv"
+  401  awk -F ',' 'NR > 1 && $16 == "highest_monthly_earnings" {print $2, $8}' "Global YouTube Statistics.csv"
+  402  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  403  tail -n +2 "Global YouTube Statistics.csv" | sort -t ',' -k16,16nr | awk -F ',' 'NR==1 {print $6, $8}'
+  404  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  405  awk -F ',' 'NR > 1 {max = ($16 > max) ? $16 : max} END {print "Highest Monthly Earnings:", max}' "Global YouTube Statistics.csv"
+  406  awk -F ',' 'NR == 2 {max_earnings = $16; country = $8} NR > 1 {if ($16 > max_earnings) {max_earnings = $16; country = $8}} END {print "Country with Highest Monthly Earnings:", country, "Earnings:", max_earnings}' "Global YouTube Statistics.csv"
+  407  awk -F ',' '$8 == "United States" {max = ($16 > max) ? $16 : max} END {print "Highest Monthly Earning in United States:", max}' "Global YouTube Statistics.csv"
+  408  awk -F ',' '$8 == "Indis" {max = ($16 > max) ? $16 : max} END {print "Highest Monthly Earning in India:", max}' "Global YouTube Statistics.csv"
+  409  awk -F ',' '$8 == "India" {max = ($16 > max) ? $16 : max} END {print "Highest Monthly Earning in India:", max}' "Global YouTube Statistics.csv"
+  410  awk -F ',' '$8 == "United Kingdom" {max = ($16 > max) ? $16 : max} END {print "Highest Monthly Earning in United Kingdom:", max}' "Global YouTube Statistics.csv"
+  411  awk -F ',' '($8 == "United States" || $8 == "United Kingdom" || $8 == "India") {max[$8] = ($16 > max[$8]) ? $16 : max[$8]} END {for (country in max) print "Highest Monthly Earning in " country ":", max[country]}' "Global YouTube Statistics.csv"
+  412  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  413  awk -F ',' 'NR > 1 {max = ($3 > max) ? $16 : max} END {print "Most Subscribers:", max}' "Global YouTube Statistics.csv"
+  414  awk -F ',' 'NR > 1 {max = ($3 > max) ? $3 : max} END {print "Most Subscribers:", max}' "Global YouTube Statistics.csv"
+  415  cut -d ',' -f 5 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq
+  416  awk -F ',' '$5 == "Education" && NR > 1 {max = ($3 > max) ? $3 : max} END {print "Most Subscribers in Education:", max}' "Global YouTube Statistics.csv"
+  417  awk -F ',' '($5 == "Education" || $5 == "Entertainment" || $5 == "Sports") && NR > 1 {max[$5] = ($3 > max[$5]) ? $3 : max[$5]} END {for (category in max) print "Most Subscribers in", category ":", max[category]}' "Global YouTube Statistics.csv"
+  418  wq
+  419  cd
+  420  ls
+  421  vi ws3.txt
+  422  exit
+  423  script ws3.txt
+  424  cd
+  425  ls
+  426  cd Worksheet3
+  427   awk -F ',' '($8 == "United States" || $8 == "United Kingdom" || $8 == "India") {max[$8] = ($16 > max[$8]) ? $16 : max[$8]} END {for (country in max) print "Highest Monthly Earning in " country ":", max[country]}' "Global YouTube Statistics.csv"
+  428  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  429   awk -F ',' '($8 == "United States" || $8 == "United Kingdom" || $8 == "India") {max[$8] = ($16 > max[$8]) ? $16 : max[$8]} END {for (country in max) print "Highest Monthly Earning in " country ":", max[country]}' "Global YouTube Statistics.csv" > ws3.txt
+  430  awk -F ',' '($5 == "Education" || $5 == "Entertainment" || $5 == "Sports") && NR > 1 {max[$5] = ($3 > max[$5]) ? $3 : max[$5]} END {for (category in max) print "Most Subscribers in", category ":", max[category]}' "Global YouTube Statistics.csv" > ws3.txt
+  431  vi ws3.txt
+  432   awk -F ',' '($8 == "United States" || $8 == "United Kingdom" || $8 == "India") {max[$8] = ($16 > max[$8]) ? $16 : max[$8]} END {for (country in max) print "Highest Monthly Earning in " country ":", max[country]}' "Global YouTube Statistics.csv" > ws3.txt
+  433  vi ws3.txt
+  434  awk -F ',' '($5 == "Education" || $5 == "Entertainment" || $5 == "Sports") && NR > 1 {max[$5] = ($3 > max[$5]) ? $3 : max[$5]} END {for (category in max) print "Most Subscribers in", category ":", max[category]}' "Global YouTube Statistics.csv" >> ws3.txt
+  435  vi ws3.txt
+  436  awk -F ',' '($5 == "Education" || $5 == "Entertainment" || $5 == "Sports") && NR > 1 {max[$5] = ($3 > max[$5]) ? $3 : max[$5]} END {for (category in max) print "Most Subscribers in", category ":", max[category]}' "Global YouTube Statistics.csv" >> ws3.txt
+  437  vi ws3.txt
+  438  history > cmds.log
+  439  vi cmds.log
+  440  git init
+  441  git add .
+  442  git status
+  443  git commit -m "files for ws3 being pushed"
+  444  git branch -M main
+  445  git remote add origin git@github.com:breannakchi/Worksheet3.git
+  446  git push -u origin main
+  447  cd
+  448  ls
+  449  cd Worksheet4
+  450  ls
+  451  cd Subscribers
+  452  mean_us=$(awk '{ sum += $1 } END { if (NR > 0) print sum / NR }' United_States.txt)
+  453  mean_us=$(echo "$mean_us" | bc)
+  454  (base) FVFY3GM2HV22:~ breannachi$ mean_us=$(awk '{ sum += $1 } END { if (NR > 0) print sum / NR }' United_States.txt)
+  455  awk: can't open file United_States.txt
+  456   source line number 1
+  457  exit
+  458  ls ~/.bash_profile
+  459  nano ~/.bash_profile
+  460  source ~/.bash_profile
+  461  l
+  462  w
+  463  mkdir Worksheet4
+  464  cd Worksheet4
+  465  mkdir Subscribers
+  466  cd Subscribers
+  467  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  468  head -n 1 "Global YouTube Statistics.csv" | awk -F ',' '{for(i=1;i<=NF;i++) print i, $i}'
+  469  grep "United States" "Global YouTube Statistics.csv" | cut -d ',' -f 3 > United_States.txt
+  470  grep "India" "Global YouTube Statistics.csv" | cut -d ',' -f 3 > India.txt
+  471  cat United_States.txt
+  472  cat India.txt
+  473  pwd
+  474  pwd United_States.txt
+  475  pwd India.txt
+  476  history
+  477  cd Workshett4
+  478  ls
+  479  cd Worksheet4
+  480  ls
+  481  cd Subscribers
+  482  ls
+  483  mean_us=$(awk '{ sum += $1 } END { if (NR > 0) print sum / NR }' United_States.txt)
+  484  echo "Mean number of subscribers for United States: $mean_us" > ../ws4_means.txt
+  485  cat ws4_means.txt
+  486  cd ..
+  487  cat ws4_means.txt
+  488  cd Subscribers
+  489  grep "India" "Global YouTube Statistics.csv" | cut -d ',' -f 3 > India.txt
+  490  mean_ind=$(awk '{ sum += $1 } END { if (NR > 0) print sum / NR }' India.txt)
+  491  cd ..
+  492  ls
+  493  cat ws4_means.txt
+  494  cd Subscribers
+  495  echo "Mean number of subscribers for India: $mean_ind" >> ../ws4_means.txt
+  496  cd ..
+  497  ls
+  498  cat ws4_means.txt
+  499  cd ..
+  500  ls
+  501  cd Worksheet4
+  502  ld
+  503  ls
+  504  cd Subscribers
+  505  ls
+  506  cd ..
+  507  ls
+  508  echo "Hello, John Doe!" > greetings.txt
+  509  echo "Hi, Jane Doe!" >> greetings.txt
+  510  cat greetings.txt
+  511  echo "Greetings, John Smith!" >> greetings.txt
+  512  echo "Hello, Michael Johnson!" >> greetings.txt
+  513  echo "Hi, Emily Davis!" >> greetings.txt
+  514  cat greetings.txt
+  515  sed -i '' 's/Hello/Hi/g' greetings.txt
+  516  ls
+  517  cd greetings.txt
+  518  ls greetings.txt
+  519  sed -i '' 's/Hello/Hi/g' greetings.txt
+  520  cd .
+  521  cat greetings.txt
+  522  [breannasp24@sjsu Worksheet4]$ sed -i '' 's/Hello/Hi/g' greetings.txt
+  523  sed: can't read s/Hello/Hi/g: No such file or directory
+  524  sed -i '' 's/Hello/Hi/g' greetings.txt
+  525  ls greetings.txt
+  526  ls -l greetings.txt
+  527  sed -i '' 's/Hello/Hi/g' greetings.txt
+  528  pwd
+  529  cd greetings.txt
+  530  ls
+  531  sed -i '' 's/Hello/Hi/g' Worksheet4/greetings.txt
+  532  sed -i '' 's/Hello/Hi/g' greetings.txt
+  533  ls -l greetings.txt
+  534  pwd
+  535  sed -i '' 's/Hello/Hi/g' /mnt/scratch/SP24_CS131_Jyotika/breannasp24/Worksheet4/greetings.txt
+  536  ls
+  537  sed -i '' 's/Hello/Hi/g' greetings.txt
+  538  cd ..
+  539  ls
+  540  cd Worksheet4
+  541  ls
+  542  cd Subscribers
+  543  ls
+  544  cd ..
+  545  cat greetings.txt
+  546  sed -i 's/Hello/Hi/g' greetings.txt
+  547  cat greetings.txt
+  548  sed -i '/Doe/d' greetings.txt
+  549  cat greetings.txt
+  550  sed -i 's/$/ (edited)/' greetings.txt
+  551  cat greetings.txt
+  552  sed -i '/^Hello,.*Michael Johnson/s/Michael Johnson/Mike Johnson/' greetings.txt
+  553  cat greetings.txt
+  554  script ws4.txt
+  555  cript ws4.txt
+  556  tail -n 200 ~/.bash_history
+  557  script ws4.txt
+  558  cat ws4.txt
+  559  history
+  560  script ws4.txt
+  561  cd
+  562  ls
+  563  cd Worksheet4
+  564  ls
+  565  history > cmds.log
+  566  history > ws4.txt
+  567  rm history
+  568  rm cmds.log
+  569  ls
+  570  cat ws4.txt
+  571  git init
+  572  git add .
+  573  git status
+  574  git config --global user.email breannakchi@gmail.com
+  575  git config --global user.name breannakchi
+  576  git remote add origin git@github.com:breannakchi/Worksheet4.git
+  577  git branch -M main
+  578  git push -u origin main
+  579  git commit -m "pushing files needed for worksheet4"
+  580  git push -u origin main
+  581  mkdir Assignment3
+  582  la
+  583  ls
+  584  cd Assignment3
+  585  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+  586  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+  587  ls
+  588  wc -l last.fake
+  589  sed -n '/sp24/p' last.fake > lastsp24.fake
+  590  cat lastsp24.fake
+  591  wc -l lastsp24.fake
+  592  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are: "} {print f "%s, ", $0} END {print "Kudos to these people for putting in the work"}'
+  593  head lastsp24.fake
+  594  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are: "} {printf "%s, ", $0} END {print "Kudos to these people for putting in the work"}'
+  595  clear
+  596  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are: "} {printf "%s, ", $0} END {print "Kudos to these people for putting in the work"}'
+  597  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are "} {printf "%s, ", $0} END {print "\nKudos to these people for putting in the work"}'
+  598  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are:\n "} {printf "%s\n, ", $0} END {print "Kudos to these people for putting in the work"}'
+  599  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are:\n "} {printf "%s\n", $0} END {print "Kudos to these people for putting in the work"}'
+  600  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are:\n"} {printf "%s\n", $0} END {print "Kudos to these people for putting in the work"}'
+  601  ls
+  602  cd Assignment3
+  603  awk '{print $1, $2, $3, $4, $5}' lastsp24.fake | less
+  604  awk '$5 ~ /^(1[1-2]|0[1-4]):/ {print $1}' lastsp24.fake
+  605  awk '$5 ~ /^(1[1-2]|0[1-4]):/ {print $1}' lastsp24.fake | sort
+  606  awk '$5 ~ /^(1[1-2]|0[1-4]):/ {print $1}' lastsp24.fake | sort | uniq
+  607  ls
+  608  cat lastsp24.fake
+  609  awk -F'\t' '{print $1, $2, $3, $4, $5}' lastsp24.fake | less
+  610  awk '$5 ~ /^(23|00|01|02|03|04):/ {print $1}' lastsp24.fake | sort | uniq
+  611  awk '{print $5}' lastsp24.fake | less
+  612  awk '{print $4}' lastsp24.fake | less
+  613  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1}' lastsp24.fake | sort | uniq
+  614  awk '{print $6}' lastsp24.fake | less
+  615  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1}' lastsp24.fake | sort | uniq
+  616  awk '$6 ~ /^(0[5-9]:|10:)/ {print $1}' lastsp24.fake | sort | uniq
+  617  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1}' lastsp24.fake | sort | uniq; echo "Night Owls are dope. Please ensure you get enough sleep though."
+  618  awk '$6 ~ /^(0[5-9]:|10:)/ {print $1}' lastsp24.fake | sort | uniq; echo "Early Birds are dope. Please ensure you get enough sleep though."
+  619  awk '$1 ~ /^t/' lastsp24.fake
+  620  awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+  621  sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+  622  sed 's/[[:alnum:] ]//g' passwd.fake | grep -v '^$' | sort -u
+  623  wc -l last.fake
+  624  cd
+  625  ls
+  626  cd Assignment3
+  627  wc -l last.fake
+  628  sed -n '/sp24/p' last.fake > lastsp24.fake
+  629  wc -l lastsp24.fake
+  630  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are:\n"} {printf "%s\n", $0} END {print "Kudos to these people for putting in the work"}'
+  631  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1}' lastsp24.fake | sort | uniq
+  632  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' lastsp24.fake | sort | uniq
+  633  clear
+  634  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' lastsp24.fake | sort | uniq
+  635  clear
+  636  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' lastsp24.fake | sort | uniq
+  637  clear
+  638  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1}' lastsp24.fake | sort | uniq
+  639  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print}' 
+  640  clear
+  641  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print}' 
+  642  clear
+  643  awk '$6 ~ /^(23:|00:|01:|02:|03:|04:)/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  644  clear
+  645  awk '$6 ~ /^(0[5-9]:|10:)/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  646  clear
+  647  awk '$6 ~ /^(0[5-9]:|10:)/ {print $1}' lastsp24.fake | sort | uniq; echo "Early Birds are dope. Please ensure you get enough sleep though."
+  648  clear
+  649  awk '$1 ~ /^t/' lastsp24.fake
+  650  clear
+  651  awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+  652  clear
+  653  sed 's/[[:alnum:] ]//g' passwd.fake | sed '/^$/d' | sort -u
+  654  history > cmds.log
+  655  cat cmds.log
+  656  ls
+  657  cd Assignment3
+  658  cd
+  659  ls
+  660  cd Assignment3
+  661  ls
+  662  sed 's/[[:alnum:] ]//g' passwd.fake | sort 
+  663  sed 's/[^:/]//g' passwd.fake | sort -u
+  664  history > cmds.log
+  665  nano Assignment3.txt
+  666  cat Assignment3.txt
+  667  git init
+  668  git add .
+  669  git status
+  670  git remote add origin git@github.com:breannakchi/Assignment3.git
+  671  git commit -m "Assignment3 pushing files"
+  672  git branch -M main
+  673  git push -u origin main
+  674  cd ..
+  675  mkdir CS131ClassProject8
+  676  nano GroupMembers.txt
+  677  cd
+  678  ls
+  679  mv GroupMembers.txt CS131ClassProject8
+  680  cd
+  681  ls
+  682  cd CS131ClassProject8/
+  683  LS
+  684  ls
+  685  kaggle datasets download -d sanyacodes/movies-dataset-netflix-prime-video-disney
+  686  pip install kaggle
+  687  brew install python3
+  688  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  689  git init
+  690  git add .
+  691  git commit -m "the group member txt file"
+  692  git branch -M main
+  693  git remote add origin git@github.com:breannakchi/CS131ClassProject8.git
+  694  git push -u origin main
+  695  cd ..
+  696  git clone https://github.com/breannakchi/CS131ClassProject8.git
+  697  rm CS131ClassProject8/
+  698  rmdir CS131ClassProject8/
+  699  rm -rf CS131ClassProject8/
+  700  git clone https://github.com/breannakchi/CS131ClassProject8.git
+  701  cd
+  702  ls
+  703  cd CS131ClassProject8/
+  704  LS
+  705  ls
+  706  cat GroupMembers.txt 
+  707  cat MoviesOnStreamingPlatforms.csv 
+  708  ls
+  709  cd CS131ClassProject8
+  710  ls
+  711  awk -F, 'NR > 1 {print "Row " NR ": "; for (i=1; i<=NF; i++) print "Column " i ": " $i}' MoviesOnStreamingPlatforms.csv
+  712  awk -F',' 'NR==1 {print $0}' MoviesOnStreamingPlatforms.csv | sed 's/,/\n/g' | awk '{print "Column " NR ": " $0}'
+  713  awk -F',' 'NR==1 {print $0}' MoviesOnStreamingPlatforms.csv | sed 's/,/\n/g' | awk 'NR!=11 {print "Column " NR ": " $0}'
+  714  awk -F',' 'NR>1 {sum[$7]+=$6; count[$7]++} END {for (platform in sum) print platform, sum[platform]/count[platform]}' MoviesOnStreamingPlatforms.csv | sort -k2,2nr | head -1
+  715  awk -F',' '$10 == 1 && $6 != "" {sum += $6; count++} END {if (count > 0) print "Average Rotten Tomatoes rating for Disney+:", sum/count; else print "No data found for Disney+"}' MoviesOnStreamingPlatforms.csv
+  716  awk -F',' '$7 == 1 && $6 != "" {sum += $6; count++} END {if (count > 0) print "Average Rotten Tomatoes rating for Netflix:", sum/count; else print "No data found for Netflix"}' MoviesOnStreamingPlatforms.csv
+  717  awk -F',' '$8 == 1 && $6 != "" {sum += $6; count++} END {if (count > 0) print "Average Rotten Tomatoes rating for Prime Video:", sum/count; else print "No data found for Prime Video"}' MoviesOnStreamingPlatforms.csv
+  718  awk -F',' '$9 == 1 && $6 != "" {sum += $6; count++} END {if (count > 0) print "Average Rotten Tomatoes rating for Hulu:", sum/count; else print "No data found for Hulu"}' MoviesOnStreamingPlatforms.csv
+  719  awk -F',' '$7 == 1 {if ($5 == "all") all++; else if ($5 == "18+") above_18++; else below_18++} END {if (all >= above_18 && all >= below_18) print "Netflix has more movies for all ages"; else if (above_18 >= all && above_18 >= below_18) print "Netflix has more movies for 18+"; else print "Netflix has more movies for below 18"}' MoviesOnStreamingPlatforms.csv
+  720  awk -F',' '$7 == 1 {if ($5 == "all") all++; else if ($5 == "18+") above_18++; else below_18++} END {print "Netflix movies count by age range:"; print "All ages:", all; print "18+:", above_18; print "Below 18:", below_18; if (all >= above_18 && all >= below_18) print "\nNetflix has more movies for all ages"; else if (above_18 >= all && above_18 >= below_18) print "\nNetflix has more movies for 18+"; else print "\nNetflix has more movies for below 18"}' MoviesOnStreamingPlatforms.csv
+  721  awk -F',' '$8 == 1 {if ($5 == "all") all++; else if ($5 == "18+") above_18++; else below_18++} END {print "Hulu movies count by age range:"; print "All ages:", all; print "18+:", above_18; print "Below 18:", below_18; if (all >= above_18 && all >= below_18) print "\nHulu has more movies for all ages"; else if (above_18 >= all && above_18 >= below_18) print "\nHulu has more movies for 18+"; else print "\nHulu has more movies for below 18"}' MoviesOnStreamingPlatforms.csv
+  722  awk -F',' '$9 == 1 {if ($5 == "all") all++; else if ($5 == "18+") above_18++; else below_18++} END {print "Prime Video movies count by age range:"; print "All ages:", all; print "18+:", above_18; print "Below 18:", below_18; if (all >= above_18 && all >= below_18) print "\nPrime Video has more movies for all ages"; else if (above_18 >= all && above_18 >= below_18) print "\nPrime Video has more movies for 18+"; else print "\nPrime Video has more movies for below 18"}' MoviesOnStreamingPlatforms.csv
+  723  awk -F',' '$10 == 1 {if ($5 == "all") all++; else if ($5 == "18+") above_18++; else below_18++} END {print "Disney+ movies count by age range:"; print "All ages:", all; print "18+:", above_18; print "Below 18:", below_18; if (all >= above_18 && all >= below_18) print "\nDisney+ has more movies for all ages"; else if (above_18 >= all && above_18 >= below_18) print "\nDisney+ has more movies for 18+"; else print "\nDisney+ has more movies for below 18"}' MoviesOnStreamingPlatforms.csv
+  724  mkdir Worksheet 5
+  725  lw
+  726  ls
+  727  mkdir Worksheet5
+  728  ls
+  729  cd Worksheet5
+  730  mkdir 'United States'
+  731  ls
+  732  rm 'United States'
+  733  rmkdir 'United States"
+  734  nano script.sh
+  735  cd
+  736  ls
+  737  cd 'Worksheet 5'
+  738  ls
+  739  cd 'United States'
+  740  nano script.sh
+  741  bash script.sh
+  742  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  743  bash script.sh
+  744  ls
+  745  nano script.sh
+  746  rm -m 'United States'
+  747  nano script.sh
+  748  rm -r "United States"
+  749  ls
+  750  bash script.sh
+  751  cat ws5.txt
+  752  nano script.sh
+  753  bash script.sh
+  754  ls
+  755  cd 'United States'
+  756  ls
+  757  cat Comedy.txt
+  758  cd ..
+  759  ls
+  760  cd ws5.txt
+  761  cat ws5.txt
+  762  cd ..
+  763  ls
+  764  cd 'United States'
+  765  ls
+  766  mv script.sh 'Worksheet 5'
+  767  cd ..
+  768  ls
+  769  cd 'United States'
+  770  mv script.sh ..
+  771  cd ..
+  772  mv script.sh 'Worksheet 5'
+  773  cd 'United States'
+  774  ls
+  775  cd ..
+  776  ls
+  777  rm -m 'United States'
+  778  rm -r 'United States'
+  779  ls
+  780  cd ..
+  781  cd 'Worksheet 5'
+  782  nano script.sh
+  783  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  784  bash script.sh
+  785  ls
+  786  cat ws5.txt
+  787  nano script.sh
+  788  bash script.sh
+  789  ls
+  790  cat ws5.txt
+  791  rm ws5.txt
+  792  ls
+  793  nano script.sh
+  794  bash script.sh
+  795  ls
+  796  cat ws5.txt
+  797  nano script.sh
+  798  rm ws5.txt
+  799  bash script.sh
+  800  cat ws5.txt
+  801  git init
+  802  history > cmds.log
